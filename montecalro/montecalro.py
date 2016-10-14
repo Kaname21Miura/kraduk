@@ -302,9 +302,8 @@ def monte(nPh,fname):
 
 
 #このモジュールファイルのテストコード
-"""if __name__ == '__main__':
-    nPn = 10
+if __name__ == '__main__':
+    nPh = 10
     fname = 'testMonte.csv'    
-    main(nPn,fname)
-"""
+    monte(nPh,fname)
     
