@@ -134,7 +134,7 @@ def save(fname,list_sample):
         f.close
         
 
-def main(nPh,fname):
+def monte(nPh,fname):
     timer_start = time.time()
     #nPh = 10000000 #光子数
     #fname = '161011Ms600Skin0.0nPh10^7Surf.csv'
@@ -298,11 +298,13 @@ def main(nPh,fname):
     print(elapsed_time)
     print("END")
 
+    
+
 
 #このモジュールファイルのテストコード
-if __name__ == '__main__':
+"""if __name__ == '__main__':
     nPn = 10
     fname = 'testMonte.csv'    
     main(nPn,fname)
-    
+"""
     
